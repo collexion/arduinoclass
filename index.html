@@ -53,7 +53,7 @@ title: Lexington Arduino Class
     <div class="container">
       <section id="class-list">
         <ul class="posts">
-          {% for post in site.posts %}
+          {% for post in site.posts reversed %}
             <li><a href="/arduinoclass{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
