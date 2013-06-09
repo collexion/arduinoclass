@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Day One: Introduction"
-date:   2013-06-09 14:29:21
+date:   2013-07-15 14:29:21
 categories: class
 ---
 
@@ -34,6 +34,7 @@ http://vimeo.com/18539129
 * load the sample
 * brief code walkthrough
 * select board type
+* reset the baord
 * compile & run
 * debug any issues
 * everyone gets a sticker!
@@ -47,4 +48,4 @@ http://vimeo.com/18539129
 * Wire the blink example
 * Try a pin other than 13, change the code
 * Try alternating pins (12, 13, 14, repeat)
-
+* Everyone gets a sticker!
