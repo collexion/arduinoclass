@@ -15,6 +15,21 @@ categories: class
 * Differences Between Digital and Analog: button inline with LED
 * Outtro: Build LED Throwies
 
+### TODO
+
+* Assign teacher
+* Preperation: Acquire CR2032 batteries, LEDs, and magnets for throwies
+* Slides: Data types (i.e. strings vs ints)
+* Slides: Power levels and digital interpretation (button debouncing)
+* Slides: Analog vs Digital (maybe TTL voltages, etc)
+* Sketch: LED and button debugger
+* Sketch: Serial output
+* Sketch: Serial Input to LED status
+* Sketch: Serial Input to LED status
+* Sketch: Button press counter and serial reporting
+* Schematics: Button input with LED output
+* Schematics: Button as a switch interrupting analog LED circuit
+
 ### Breadboard a button and LED
 
 * Have all materials and a Fritzing diagram available

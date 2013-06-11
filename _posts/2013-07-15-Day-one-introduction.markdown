@@ -14,12 +14,28 @@ categories: class
 * Introduction to electronic schematics
 * Outtro: Breadboarding, offboard blink
 
+### TODO
+
+* Assign teacher
+* Preperation: Acquire and test projector or television for documentary
+* Slides: history of Arduino, cool arduino projects
+* Slides: powering the board, identifying and explaining jumpers
+* Slides: breadboarding tutorial
+* Slides: steps for deploying sketch
+* Sketch: Blink example
+* Sketch: Blink on pin 12
+* Sketch: Alternate blinks between pins 12 and 13
+* Schematics: Fritzing diagram for LED blink, traditional schematic of same
+* Further Reading: schematics, arduino projects and blogs, beyond breadboards
+* Open Question: how much do we talk about programming / c language?
+
 ### History of Arduino
 * 1993: Atmel introduces programmable micros, 1996: 8-bit versions
 * 2001: Processing (MIT)
 * 2003: Wiring (Ivrea)
 * 2005: Arduino (Ivrea)
 * Common theme of art and interaction
+* Show the coolest Arduino projects ever
 
 ### Documentary
 http://vimeo.com/18539129
