@@ -45,3 +45,4 @@ categories: class
 * Make some noise at different pitches
 * Play Marry Had a Little Lamb
 * Everyone who can give the teachers a headache gets a sticker!
+
