@@ -11,6 +11,18 @@ categories: class
 * Design a glowing mood orb
 * Outtro: Bleeps & Bloops
 
+### TODO
+
+* Assign teacher
+* Slides: Explain PWM
+* Slides: Explain number systems (binary vs decimal)
+* Sketch: 3-state PWM (20% intensity, 50% intensity, 100% intensity)
+* Sketch: Color Fading for tri-color LED
+* Sketch: Making a series of beeps at different lengths and pitches
+* Schematics: LED on PWM pin
+* Schematics: Tri-color LED on many PWM pins
+* Schematics: Piezo speaker on PWM pin
+
 ### Pulsing notification light
 
 * Breadboard an LED to a PWM port on Arduino

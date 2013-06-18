@@ -12,6 +12,19 @@ categories: class
 * Discuss temparature sensing
 * Collexion Visit!
 
+### TODO
+
+* Assign teacher
+* Preperation: Make sure the space is cooled, demos are ready
+* Sketch: read potentiometer levels in a loop and print serial
+* Sketch: set LED brightness from pot input
+* Schematics: Potentiometer input
+* Schematics: LED on PWM in parallel with pot input
+* Demo: print something on makerbot
+* Demo: draw something with CNC
+* Demo: temperature sensor
+* Demo: lightbar
+
 ### Read levesl from pot, display via serial
 
 * Breadboard a knob
