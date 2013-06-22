@@ -18,7 +18,7 @@ void loop() {
 
   // check the button
   buttonPressed = (buttonPressed || (digitalRead(buttonPin) == HIGH));
-  delay(200);
+  delay(800);
   buttonPressed = (buttonPressed || (digitalRead(buttonPin) == HIGH));
   delay(200);
   buttonPressed = (buttonPressed || (digitalRead(buttonPin) == HIGH));
@@ -30,6 +30,7 @@ void loop() {
   // write the result
   if (buttonPressed) {
     Serial.println("OKAY!");
+    buttonPressed = false;
   } else {
     Serial.println("I'm not seeing anything from the button :(");
   }
