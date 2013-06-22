@@ -17,7 +17,6 @@ categories: class
 
 ### TODO
 
-* Assign teacher
 * Preperation: Acquire CR2032 batteries, LEDs, and magnets for throwies
 * Slides: Data types (i.e. strings vs ints)
 * Slides: Power levels and digital interpretation (button debouncing)
