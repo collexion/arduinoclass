@@ -6,6 +6,13 @@ date: 2013-07-16T14:29:21.000Z
 categories: class
 ---
 
+### Handouts
+
+* First schematic:
+  https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematic.pdf
+* Analog circuitry:
+  https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematicAnalog.pdf
+
 ### Overview
 
 * Welcome: Breadboard a button and LED
@@ -26,12 +33,10 @@ categories: class
 * Sketch: Serial Input to LED status
 * Sketch: Serial Input to LED status
 * Sketch: Button press counter and serial reporting
-* Schematics: Button input with LED output
-* Schematics: Button as a switch interrupting analog LED circuit
 
 ### Breadboard a button and LED
 
-* Have all materials and a Fritzing diagram available
+* Build breadboard according to the first schematic in handout
 * Have all Arduinos with a dubugging program installed
 * Students breadboard the button and led
 * Press the button when the LED lights up, debugging programs prints "SUCCESS" to serial
