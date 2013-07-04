@@ -1,23 +1,19 @@
-
 int buttonPin = 8;
-int presses = 0;
-boolean heldDown = false;
+int count = 0;
+int buttonPressedState = HIGH; // HIGH for normally closed
+int lastState = LOW; // inverse of above for starting out w/o press
 
 void setup() {
   pinMode(buttonPin, INPUT);
-  digitalWrite(buttonPin, 1);
+  digitalWrite(buttonPin, HIGH); // pullup
   Serial.begin(9600);
 }
 
 void loop() {
-  boolean buttonDown = (digitalRead(buttonPin) == HIGH);
-  if (buttonDown) {
-    if (!heldDown) {
-      presses = presses + 1;
-    }
-    heldDown = true;
-  } else {
-    heldDown = false;
+  int newState = digitalRead(buttonPin);
+  if (newState == buttonPressedState && lastState != buttonPressedState) {
+    count++;
   }
-  Serial.println(presses);
+  lastState = newState;
+  Serial.println(count);
 }
