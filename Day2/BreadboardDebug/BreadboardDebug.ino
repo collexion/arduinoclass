@@ -1,7 +1,7 @@
 int ledPin = 13;
 int buttonPin = 8;
 boolean buttonPressed = false;
-int pressedButtonState = LOW; //normally closed
+int pressedButtonState = HIGH; //normally closed
 
 void setup() {
   pinMode(ledPin, OUTPUT);
