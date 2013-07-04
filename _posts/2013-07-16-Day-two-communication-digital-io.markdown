@@ -8,9 +8,9 @@ categories: class
 
 ### Handouts
 
-* [First schematic](https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematic.pdf)
-* [Binary & Data
-  Types](https://docs.google.com/presentation/d/1yR_A3p7zKlw5DK3o3nOcD0FfpH211EEE2_l62ZOOo9Y)
+* [Button + LED Schematic](https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematic.pdf)
+* [Binary & Data Types Slides](https://docs.google.com/presentation/d/1yR_A3p7zKlw5DK3o3nOcD0FfpH211EEE2_l62ZOOo9Y)
+* [Debouncing Slides](https://docs.google.com/presentation/d/17hWX8If7yBmvWJkEQ4riCVzp3hYwUlV-bQDXPQ74M10)
 * [Analog circuitry](https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematicAnalog.pdf)
 
 ### Overview
@@ -25,14 +25,7 @@ categories: class
 ### TODO
 
 * Preperation: Acquire CR2032 batteries, LEDs, and magnets for throwies
-* Slides: Data types (i.e. strings vs ints)
-* Slides: Power levels and digital interpretation (button debouncing)
 * Slides: Analog vs Digital (maybe TTL voltages, etc)
-* Sketch: LED and button debugger
-* Sketch: Serial output
-* Sketch: Serial Input to LED status
-* Sketch: Serial Input to LED status
-* Sketch: Button press counter and serial reporting
 
 ### Breadboard a button and LED
 
@@ -45,22 +38,23 @@ categories: class
 
 ### Serial Communications
 
-* Show the [debugging
-  program](https://github.com/collexion/arduinoclass/raw/master/Day2/SerialOut/SerialOut.ino) example for how to write to the serial console
+* Show the [serial debugging program](https://github.com/collexion/arduinoclass/raw/master/Day2/SerialOut/SerialOut.ino) example for how to write to the serial console
 * Students write a sketch to print "Hello, World"
 * Everyone gets a sticker!
 * Read serial input, compare to expected string ("1" to turn on, "0" to turn off) ([Example here](https://github.com/collexion/arduinoclass/blob/master/Day2/SerialLightToggle/SerialLightToggle.ino))
 * Everyone gets a sticker!
-* Sidebar: Data types -- read in bytes, comparte to strings that look like numbers
+* Sidebar: Data types -- read in bytes, comparte to strings that look like numbers ([slides](https://docs.google.com/presentation/d/1yR_A3p7zKlw5DK3o3nOcD0FfpH211EEE2_l62ZOOo9Y))
 
 ### Digital Dirtiness: Debouncing
 
-* make a counter to record the number of times a button is pressed
+* make a counter to record the number of times a button is pressed ([Example
+  sketch](https://github.com/collexion/arduinoclass/blob/master/Day2/ButtonCount/ButtonCount.ino))
 * continuously print the count to serial monitor
 * press the button 10 times
 * check the count
 * Everyone gets a sticker!
 * Explain power levels & digital interpretation
+  ([slides](https://docs.google.com/presentation/d/17hWX8If7yBmvWJkEQ4riCVzp3hYwUlV-bQDXPQ74M10))
 
 ### Digital vs Analog
 
@@ -74,3 +68,9 @@ categories: class
 
 * Build an LED throwie
 * Everyone gets and LED throwie!
+
+### Further Study
+
+* Find debouncing without loops
+* Classify electronics around your house into digital and analog
+* Use a 3-color LED and 3 buttons to pick a color for the LED
