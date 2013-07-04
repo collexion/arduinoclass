@@ -8,10 +8,10 @@ categories: class
 
 ### Handouts
 
-* First schematic:
-  https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematic.pdf
-* Analog circuitry:
-  https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematicAnalog.pdf
+* [First schematic](https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematic.pdf)
+* [Binary & Data
+  Types](https://docs.google.com/presentation/d/1yR_A3p7zKlw5DK3o3nOcD0FfpH211EEE2_l62ZOOo9Y)
+* [Analog circuitry](https://github.com/collexion/arduinoclass/raw/master/Day2/ButtonSchematicAnalog.pdf)
 
 ### Overview
 
@@ -37,17 +37,19 @@ categories: class
 ### Breadboard a button and LED
 
 * Build breadboard according to the first schematic in handout
-* Have all Arduinos with a dubugging program installed
+* Have all Arduinos with a [debugging
+  sketch](https://raw.github.com/collexion/arduinoclass/master/Day2/BreadboardDebug/BreadboardDebug.ino) installed
 * Students breadboard the button and led
 * Press the button when the LED lights up, debugging programs prints "SUCCESS" to serial
 * Everyone gets a sticker!
 
 ### Serial Communications
 
-* Show the debugging program example for how to write to the serial console
+* Show the [debugging
+  program](https://github.com/collexion/arduinoclass/raw/master/Day2/SerialOut/SerialOut.ino) example for how to write to the serial console
 * Students write a sketch to print "Hello, World"
 * Everyone gets a sticker!
-* Read serial input, compare to expected string ("1" to turn on, "0" to turn off)
+* Read serial input, compare to expected string ("1" to turn on, "0" to turn off) ([Example here](https://github.com/collexion/arduinoclass/blob/master/Day2/SerialLightToggle/SerialLightToggle.ino))
 * Everyone gets a sticker!
 * Sidebar: Data types -- read in bytes, comparte to strings that look like numbers
 
