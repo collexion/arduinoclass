@@ -20,8 +20,6 @@ categories: class
 ### TODO
 
 * Preperation: Make sure the space is cooled, demos are ready
-* Sketch: read potentiometer levels in a loop and print serial
-* Sketch: set LED brightness from pot input
 * Demo: print something on makerbot
 * Demo: draw something with CNC
 * Demo: temperature sensor
