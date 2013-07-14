@@ -5,6 +5,11 @@ date:   2013-07-18 14:29:21
 categories: class
 ---
 
+### Handouts
+
+* [Knob + LED
+  Schematic](https://github.com/collexion/arduinoclass/raw/master/Day4/KnobSchematic.pdf)
+
 ### Overview
 
 * Read levels from Potentiometer to serial
@@ -14,12 +19,9 @@ categories: class
 
 ### TODO
 
-* Assign teacher
 * Preperation: Make sure the space is cooled, demos are ready
 * Sketch: read potentiometer levels in a loop and print serial
 * Sketch: set LED brightness from pot input
-* Schematics: Potentiometer input
-* Schematics: LED on PWM in parallel with pot input
 * Demo: print something on makerbot
 * Demo: draw something with CNC
 * Demo: temperature sensor
@@ -27,17 +29,21 @@ categories: class
 
 ### Read levesl from pot, display via serial
 
-* Breadboard a knob
-* Build & run the sketch
+* Breadboard a knob and LED from schematic (only knob is important now)
+* Build & run [the
+  sketch](https://raw.github.com/collexion/arduinoclass/master/Day4/KnobToSerial/KnobToSerial.ino)
 * See what min & max values are, discuss binary numbers again
 * Everyone gets a sticker!
 
 ### Convert from a potentiometer to LED brightness
 
-* Breadboard the LED
-* convert from x/1024 to x/256 for PWM
+* Using same breadboard [from
+  before](https://github.com/collexion/arduinoclass/raw/master/Day4/KnobSchematic.pdf)
+* convert from x/1024 to x/256 for PWM (`map` function)
+* pwm out the led port
 * Run the sketch
-* Everyone gets a sticker
+  ([Example](https://raw.github.com/collexion/arduinoclass/master/Day4/KnobToLED/KnobToLED.ino))
+* Everyone gets a sticker!
 
 ### Temperature sensing theory
 
