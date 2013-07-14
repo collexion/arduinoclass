@@ -27,7 +27,7 @@ categories: class
 * Demo: temperature sensor
 * Demo: lightbar
 
-### Read levesl from pot, display via serial
+### Read levels from kno (potentiometer), display via serial
 
 * Breadboard a knob and LED from schematic (only knob is important now)
 * Build & run [the
@@ -39,7 +39,7 @@ categories: class
 
 * Using same breadboard [from
   before](https://github.com/collexion/arduinoclass/raw/master/Day4/KnobSchematic.pdf)
-* convert from x/1024 to x/256 for PWM (`map` function)
+* convert from x/1024 to x/256 for PWM (using map function)
 * pwm out the led port
 * Run the sketch
   ([Example](https://raw.github.com/collexion/arduinoclass/master/Day4/KnobToLED/KnobToLED.ino))
