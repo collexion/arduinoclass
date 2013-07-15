@@ -42,7 +42,7 @@ categories: class
 * Students write a sketch to print "Hello, World"
 * Everyone gets a sticker!
 * Read serial input, compare to expected string ("1" to turn on, "0" to turn off) ([Example here](https://github.com/collexion/arduinoclass/blob/master/Day2/SerialLightToggle/SerialLightToggle.ino))
-* Need to know: Serial.availalbe() and int x = Serial.read()
+* Need to know: Serial.available() and int x = Serial.read()
 * Everyone gets a sticker!
 * Sidebar: Data types -- read in bytes, comparte to strings that look like numbers ([slides](https://docs.google.com/presentation/d/1yR_A3p7zKlw5DK3o3nOcD0FfpH211EEE2_l62ZOOo9Y))
 
