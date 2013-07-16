@@ -15,13 +15,6 @@ categories: class
 
 * [Analog and PWM Slides](https://docs.google.com/presentation/d/12bd8uHvKZANBWFjK9huWuNpiCIWGVpAV_4cKFGDwwpI)
 
-* Sketch: 3-state PWM (20% intensity, 50% intensity, 100% intensity)
-* Sketch: Color Fading for tri-color LED
-* Sketch: Making a series of beeps at different lengths and pitches
-* Schematics: LED on PWM pin
-* Schematics: Tri-color LED on many PWM pins
-* Schematics: Piezo speaker on PWM pin
-
 ### Pulsing notification light
 
 * [Pulsing LED Diagram](https://raw.github.com/collexion/arduinoclass/master/Day3/Analog_LED_Pulsing/Analog_LED_Pulsing_bb.pdf)
