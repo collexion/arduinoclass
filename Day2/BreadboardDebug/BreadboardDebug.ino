@@ -6,7 +6,7 @@ int pressedButtonState = HIGH; //normally closed
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
-  digitalWrite(buttonPin, 1); //pullup
+  digitalWrite(buttonPin, HIGH); //pullup
   Serial.begin(9600);
   
   //get initial button state
